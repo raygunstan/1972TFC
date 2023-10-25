@@ -1,0 +1,310 @@
+{
+  e=campaignTrail_temp
+  campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 4, \"fields\": {\"year\": 1972, \"summary\": \"<div style='overflow-y:scroll;height:200px;'><p>The time for the 1972 election has arrived, and foreign policy still remains the hottest issue of the day. While the future may seem bleak to some, most Americans are rallying behind the charismatic and generally popular President Reagan.</p> <p><ul style='margin-left: 0; padding-left: 10px;'><li>Ronald Reagan is the incumbent president of the United States. Being first elected in 1968 amidst a law-and-order wave, he must tote his successes in foreign policy and draw attention away from his more controversial domestic actions, such as the veto of the EPA. With a warm and optimistic aura, along with his charisma, he is the surefire favorite to win and secure another term for Republicans.</li><li>Frank Church is the senior Senator from Idaho, being elected and re-elected by large margins in a fairly conservative state. Considered to be an establishment Democrat with a populist tinge, he is still a rather popular figure after he routed many prominent figures in the party for the nomination.</li></p></div>\", \"image_url\": \"https://media.discordapp.net/attachments/785700970091905035/1138997418625605702/Reagan_Church.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://media.discordapp.net/attachments/785700970091905035/1138997492399227001/Untitled255_20230809164311.png\", \"recommended_reading\": \"<div style=\\\"overflow-y:scroll;height:357.133px;font-size:1em;\\\"><h2 style=\\\"margin-top: 0.5em;\\\">Readings</h2><p><b><a href='https://www.amazon.com/Stassen-Again-Steve-Werle/dp/0873519620'>Stassen Again</a> by Steve Werle<p><a href='https://archive.org/details/promiseskeptmemo0000mcma'>Promises Kept: A Memoir</a> by Sid McMath<p><a href='https://www.amazon.com/Korean-War-Max-Hastings/dp/067166834X/ref=pd_lpo_sccl_1/143-3844777-3125205?pd_rd_w=ItK5a&content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_r=7F9EAXW66XDXTSNPH6RH&pd_rd_wg=pM1A1&pd_rd_r=13771b85-340b-4b29-87ce-3104c9309cf2&pd_rd_i=067166834X&psc=1'>The Korean War</a> by Max Hastings<p><a href='https://www.amazon.com/Demagogue-Life-Shadow-Senator-McCarthy/dp/1328959724'>Demagogue: The Life and Long Shadow of Senator Joe McCarthy</a> by Larry Tye</b><br><br><p><i>The election is over, the choice has been made, but the wheels of time keep turning...</i><br><br><p>NEW YORK TIMES: <b>NOVEMBER 7TH, 1972: PRESIDENT REAGAN RE-ELECTED IN A TIGHT RACE, PLEDGES COMMITMENT TO FOREIGN POLICY AND KEEPING THE ECONOMY STABLE!</b><br><br><p>JUNE 18TH, 1973: <b>NORTH VIETNAM GIVES INTO THE WEST AS THE PAVN COLLAPSES! LE DUAN SIGNS UNCONDITIONAL SURRENDER, WAR IS WON!</b><br><br><p>SEPTEMBER 26TH, 1973: <b>RED ARMY PLANTS SOVIET FLAG IN A RUINED BEIJING; MAO DETERMINED MIA, MIGHT BE DEAD!</b><br><br><p>AUGUST 11TH, 1975: <b>VICE PRESIDENT ROMNEY SAYS HE WON'T SEEK THE REPUBLICAN NOMINATION FOR 1976!</b><br><br><p><img src='https://cdn.discordapp.com/attachments/785700970091905035/1153729523209220236/IMG_9946.jpg' alt='Italian Trulli' style='width:630px;height:293px;''><br><i>To be continued.</i></p><br><br>\",\"has_visits\": 1, \"no_electoral_majority_image\": \"https://historicdistrict.files.wordpress.com/2012/08/capitol-hill-4.\"}}]"); campaignTrail_temp.candidate_json = JSON.parse("[{\"model\": \"campaign_trail.candidate\", \"pk\": 23, \"fields\": {\"first_name\": \"Ronald\", \"last_name\": \"Reagan\", \"election\": 4, \"party\": \"Republican\", \"state\": \"California\", \"priority\": 1, \"description\": \"<div style='overflow-y:scroll;height:200px;'></p>President Reagan is a man of many things. Formerly a radio announcer, an actor, a Governor, and now President, Reagan’s life and career has been a storied one. Despite relative inexperience on the national level, he shocked the nation by winning the contentious 1968 Republican primaries, and then beating Vice President Hubert Humphrey in the general election.</p><p>As Reagan’s four year term is set to expire in January, the President hopes to win another mandate to govern from the people. With decent Republican midterm performances in 1970, and Reagan’s popularity high and growing by the day, it is expected that he will win. Seeing success in the foreign field while keeping relative status quo domestically (minus some cuts to Great Society programs) has only served to cement this belief.</p><p>However, the man is not without his faults. Anti-war protests continue to mount and the deadly Kent State shooting put the unpopularity of the Vietnam War on full display. Not only that, but his limited government-conservative ideals have led to agitation with some. For example, his veto of the EPA was deeply unpopular and he has yet to come out in support of—or opposition to—the Equal Rights Amendment. But, to chalk it up, he is still expected to win.</p></div>\", \"color_hex\": \"#c44141\", \"secondary_color_hex\": \"#d06868\", \"is_active\": 1, \"image_url\": \"https://media.discordapp.net/attachments/921887918480572466/1139012111452868648/GetPaidStock.png\", \"electoral_victory_message\": \"<h3>L</h3>L</p>\", \"electoral_loss_message\": \"<h3>Sorry! You Lost the 2024 Presidential Election</h3><p>You lost sry brandon</p>\", \"no_electoral_majority_message\": \"<h3>L</h3><p>Looks like Trump was successful in deadlocking the Electoral College. The Republicans still control the house so who knows where this will go. There is still a good chance that you remain President, but who really knows what comes next.</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 24, \"fields\": {\"first_name\": \"Frank\", \"last_name\": \"Church\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"Idaho\", \"priority\": 2, \"description\": \"<p>Although not being as storied as Ronald Reagan, Senator Frank Church is still an interesting figure in American politics. Originally elected in 1956 in the relatively Republican — and conservative — state of Idaho, he has only grown in name recognition and popularity.</p><p>Noted for his general liberalism through his voting record and the like, Church brought a populist tinge to his presidential run this year, and it worked. After securing the nomination at a chaotic DNC, beating the likes of Scoop Jackson, Ted Kennedy, and George Wallace (the latter being assassinated), the party has shakily united behind him in hopes to win back the White House.</p><p>Despite this, the unity seems to be an illusion. The party is still fractured after two chaotic conventions back-to-back, especially in regards to the Southern wing. Church will have a tough road ahead of him, but if successful, his comeback will be as great or even greater than Truman’s in 1948.</p>\", \"color_hex\": \"#0020c1\", \"secondary_color_hex\": \"#0000d9\", \"is_active\": 1, \"image_url\": \"https://media.discordapp.net/attachments/921887918480572466/1139012118465745097/IMG_7778.jpg\", \"electoral_victory_message\": \"<h3>Oi</h3><p>ballsy</p>\", \"electoral_loss_message\": \"<h3>mo</h3><p>T</p>\", \"no_electoral_majority_message\": \"<h3>t</h3><p>t</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 25, \"fields\": {\"first_name\": \"\", \"last_name\": \"Other\", \"election\": 4, \"party\": \"States Rights Democrat\", \"state\": \"Georgia\", \"priority\": 2, \"description\": \"<p>Racist</p>\", \"color_hex\": \"#c46300\", \"secondary_color_hex\": \"#ff880b\", \"is_active\": 0, \"image_url\": \"https://cdn.discordapp.com/attachments/1092480791948316763/1098302408716730438/2384.jpg\", \"electoral_victory_message\": \"<h3>t</h3></p><p>t</p>\", \"electoral_loss_message\": \"<h3>t</h3><p>t\", \"no_electoral_majority_message\": \"<h3>t</h3><p>t</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 58, \"fields\": {\"first_name\": \"Sargent\", \"last_name\": \"Shriver\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"Maryland\", \"priority\": 3, \"description\": \"'\", \"color_hex\": \"#0C4686\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://media.discordapp.net/attachments/921887918480572466/1139013175472296116/IMG_7782.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Sargent Shriver isn’t too well known to the American public. He really isn’t that much of a politician. Yes, he’s served in political posts, such as ambassadorships, but never elected office. With that being said, his selection would be seen as an olive branch to the Kennedy wing.</p><p>After all, the two are technically related, and the name recognition that comes with being a Kennedy, or related to one, can only serve to help you. Also, Shriver isn’t that bad of a speaker and can make up for the charisma that you lack.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 59, \"fields\": {\"first_name\": \"Walter\", \"last_name\": \"Mondale\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"New Mexico\", \"priority\": 4, \"description\": \"'\", \"color_hex\": \"#0C4686\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://media.discordapp.net/attachments/921887918480572466/1139015108211789874/IMG_7787.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Walter Mondale is currently serving as Senator from Minnesota. A protege of Hubert Humphrey himself, Mondale has risen the ranks in Minnesota, and has ambitions to do the same thing nationally. <br><br>He would be a solid pick, and could provide a much needed regional balance, him being from the industrial Midwest and all. His selection could certainly siphon off Midwestern voters keen on voting for Reagan because of Romney, and hopefully provide a much needed edge that could decide the election.</p><p>As for Mondale’s policies, he contrasts well with your own, even if you two agree on many things. Your moderate stances and tones on a number of things is different from Mondale’s unabashed progressivism.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 55, \"fields\": {\"first_name\": \"George\", \"last_name\": \"Romney\", \"election\": 4, \"party\": \"Republican\", \"state\": \"Michigan\", \"priority\": 6, \"description\": \"'\", \"color_hex\": \"#EF2F16\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://media.discordapp.net/attachments/785700970091905035/1139002504445706250/IMG_7749.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Vice President George Romney has been a faithful ally to your administration since the beginning. Although a bit more moderate than yourself, he has helped hold the party together through all the ups and downs. His work, even if gone unnoticed, helped prevent the complete bolt of the fading liberal wing which in turn led to your unanimous renomination.</p><p>Turning your back on him now would piss him off to no end, viewing his tireless effort for you and the party as wasted and obsolete. But more importantly, would serve as a slap in the face to the party itself. Although it might not be a great idea to plaster his face all over the campaign trail due to his proneness to gaffes, having him work in the background could serve wonders for this campaign if it wants to win another four years.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 56, \"fields\": {\"first_name\": \"Howard\", \"last_name\": \"Baker\", \"election\": 4, \"party\": \"Republican\", \"state\": \"California\", \"priority\": 7, \"description\": \"'\", \"color_hex\": \"#EF2F16\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://cdn.discordapp.com/attachments/785700970091905035/1154043655024291840/IMG_0102.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>The popular Senator from Tennessee, choosing Baker could solidify yourself with the South if you haven’t done so already. However choosing him would mean giving Romney the boot, and well, we all know how that’d go. Potential party fracturing aside, Baker would probably be the best replacement for Romney.</p><p>A moderate himself, he would compliment your conservatism really well and provide needed regional balance. However, he wouldn’t really help in the industrial Midwest like keeping Romney would. But it’s your choice, cowboy.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 62, \"fields\": {\"first_name\": \"Strom\", \"last_name\": \"Thurmond\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"South Carolina\", \"priority\": 9, \"description\": \"'\", \"color_hex\": \"#ED8217\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/W4Ey7Tw.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>The leading advocate of the walkout following Wallace’s nomination in the first place, Strom Thurmond is known nationally as one of the many faces of the south and Jim Crow.  He has outwardly labeled President Wallace a communist and his attempts to usher in desegregation a “threat to civilization.”<p>Such rhetoric will be a strong draw for southern votes, but will make the prospect of gaining votes in the north unlikely.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 70, \"fields\": {\"first_name\": \"Albert\", \"last_name\": \"Gore Sr.\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"Illinois\", \"priority\": 10, \"description\": \"\", \"color_hex\": \"#ED8217\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"https://media.discordapp.net/attachments/921887918480572466/1139014964674297866/Untitled923_20230809205605.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Albert Gore is a former Senator from Tennessee, losing his seat in the 1970 midterms. Despite his loss, he is still a respected figure in the party and one of the more popular Southern Democrats in a national setting.</p><p>However, he hardly adds anything of value to your ticket. A fellow moderate on many things, he wouldn’t inspire much enthusiasm and would do little in the Deep South if that’s what you were hoping for. But, the upper South would certainly be competitive and that could really help in the long run. The only thing that really taints him is the “loser” moniker.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 64, \"fields\": {\"first_name\": \"Harry F.\", \"last_name\": \"Byrd\", \"election\": 4, \"party\": \"Democratic\", \"state\": \"Virginia\", \"priority\": 11, \"description\": \"'\", \"color_hex\": \"#ED8217\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/HKwoutX.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Once a newspaper publisher and now the leader of the Byrd political machine in Virginia, Russell selecting Byrd as his running mate would guarantee Virginia and its 11 electoral votes.<p>In the Senate, Byrd was an outspoken opponent of the New Deal, a position which puts Byrd and Russell in stark contrast.  If your goal is to block the election of Stassen, Byrd would be a good choice as a member of the conservative coalition in Congress to leverage your electoral votes and come to a satisfactory agreement with Stassen.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 8838, \"fields\": {\"first_name\": \"Ben\", \"last_name\": \"Spock\", \"election\": 4, \"party\": \"Independent\", \"state\": \"New York\", \"priority\": 0, \"description\": \"'\", \"color_hex\": \"#506526\", \"secondary_color_hex\": \"#506526\", \"is_active\": 0, \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/1/16/Vincent_Hallinan.jpg \", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}]"); 
+  campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 250, \"fields\": {\"candidate\": 24, \"running_mate\": 58}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 251, \"fields\": {\"candidate\": 24, \"running_mate\": 59}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 2510, \"fields\": {\"candidate\": 24, \"running_mate\": 70}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 253, \"fields\": {\"candidate\": 23, \"running_mate\": 55}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 254, \"fields\": {\"candidate\": 23, \"running_mate\": 56}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 256, \"fields\": {\"candidate\": 25, \"running_mate\": 62}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 257, \"fields\": {\"candidate\": 25, \"running_mate\": 63}}]"); 
+  campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 20, \"candidates\": [201, 202, 203, 200]}, {\"election\": 4, \"candidates\": [23, 24, 8838, 25]}]"); 
+  campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 20, \"candidates\": [201, 200, 202, 203]}, {\"election\": 4, \"candidates\": [23, 24, 8838, 25]}]"); 
+  campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.01, \"state_variance\": 0.005, \"question_count\": 30, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]"); 
+  campaignTrail_temp.temp_election_list = [{"id": 4, "year": 1972, "is_premium": 0, "display_year": "1972TFC"}];
+  campaignTrail_temp.credits = "raygun and coded by Aiden, all graphics made by Senator Cringe";
+  RecReading=true
+  
+  
+  HistHexcolour=["#c44141","#0020c1","#506526","#c46300"]; HistName=[" Ronald Reagan"," Frank Church"," John Hospers/Others"]; HistEV=[288,249,1]; HistPV=["39,649,453","37,317,133","777,440"]; HistPVP=["51.0%","48.0%","1.0%"];
+  
+  $("#game_window")[0].style.borderColor = "#002334" 
+  $(".container")[0].style.backgroundColor = "#002334"
+  $("#game_window")[0].style.backgroundColor = "#da9262"
+  
+  nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2E86C1"  
+  nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#da9262 " 
+  document.body.background = "https://i.imgur.com/xVUELCI.jpg" 
+  bannerlist=["https://cdn.discordapp.com/attachments/1108973159958454342/1148747238345031760/Untitled744_20230905165502.png"]
+  document.getElementById("header").src = bannerlist[Math.floor((Math.random() * bannerlist.length))] 
+  
+  //quotes = ['“When you can't make them see the light, make them feel the heat.” ~ Ronald Reagan"', '"Reagan 72! Leadership that Works!"', '“It isn't a tidy world, nor is it a secure one. But it is one in which the United States set the revolutionary example.” ~ Frank Church"']
+  //customquote = quotes[Math.floor((Math.random() * quotes.length))]
+  
+  //corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+  
+  
+  musicMode = () => {
+      // Initialise custom music
+    
+      $("#music_player")[0].children[0].style.display = "none"
+      $("#music_player")[0].children[1].style.display = "none"
+    
+      document.getElementById("modLoadReveal").style.display = "none"
+      document.getElementById("modloaddiv").style.display = "none"
+    
+      musicBox = document.getElementById("music_player")
+      musicBox.style.display = ""
+    
+      var trackSel;
+      e = campaignTrail_temp
+      e.selectedSoundtrack = 0
+    
+      toTime = (seconds) => {
+          var date = new Date(null);
+          date.setSeconds(seconds);
+          return date.toISOString().substr(11, 8);
+      }
+    
+      generateTime = () => {
+          // Get the audio element
+          var audio = document.getElementById("campaigntrailmusic");
+    
+          timeTracker = document.createElement("div");
+          timeTracker.style = `
+    text-align:left;
+    border-style:solid;
+    border-width:3px;
+    height:150px;
+    width:200px;
+    background-color:#999999;
+    float:right;
+    padding: 10px;
+    `
+          $("#trackSelParent")[0].prepend(timeTracker);
+          $("#trackSelParent")[0].prepend(document.createElement("br"));
+    
+          // Create a new element to display the current position of the audio
+          var positionDisplay = document.createElement("gg");
+          positionDisplay.id = "position-display";
+    
+          // Create a new slider element to change the time
+          var timeSlider = document.createElement("input");
+          timeSlider.type = "range";
+          timeSlider.min = 0;
+          timeSlider.max = 1;
+          timeSlider.step = 0.001;
+          timeSlider.value = 0;
+          timeSlider.style.width = "200px";
+          timeSlider.id = "time-slider";
+    
+          var pausePlay = document.createElement("button");
+          pausePlay.id = "position-display";
+          pausePlay.innerHTML = "<b>Pause</b>"
+          pausePlay.style.width = "100%";
+    
+    
+          pausePlay.addEventListener("click", event => {
+              event.preventDefault();
+              updatePositionDisplay();
+              let audio = document.getElementById("campaigntrailmusic");
+              if (audio.paused) {
+                  audio.play();
+                  event.target.innerHTML = "<b>Pause</b>";
+                  return;
+              }
+              audio.pause();
+              event.target.innerHTML = "<b>Play</b>";
+              return;
+          })
+    
+          var volumeLabel = document.createElement("gg");
+          volumeLabel.id = "volume-label";
+          volumeLabel.innerHTML = "<br><b>Volume: </b>"
+    
+          var volumeSlider = document.createElement("input");
+          volumeSlider.type = "range";
+          volumeSlider.min = 0;
+          volumeSlider.max = 1;
+          volumeSlider.step = 0.001;
+          volumeSlider.value = 0;
+          volumeSlider.style.width = "200px";
+          volumeSlider.id = "volume-slider";
+    
+          volumeSlider.value = audio.volume;
+    
+          timeTracker.appendChild(pausePlay);
+          timeTracker.appendChild(document.createElement("br"));
+          timeTracker.appendChild(document.createElement("br"));
+          timeTracker.appendChild(positionDisplay);
+          timeTracker.appendChild(timeSlider);
+          timeTracker.appendChild(volumeLabel);
+          timeTracker.appendChild(volumeSlider);
+    
+          updatePositionDisplay();
+    
+          //for (let i = 0; i < 10; i++)
+          //timeTracker.append(document.createElement("br"));
+    
+    
+          // Function to update the position display
+          function updatePositionDisplay() {
+              positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+              timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+          }
+    
+          // Function to change the time of the audio
+          function changeTime() {
+              positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+              audio.currentTime = timeSlider.value * audio.duration;
+          }
+    
+          updateVolume = event => {
+              audio.volume = event.target.value;
+          }
+    
+          // Update the position display and slider every second
+          setInterval(updatePositionDisplay, 1000);
+    
+          // Listen for changes to the time slider and change the time of the audio
+          timeSlider.addEventListener("input", changeTime);
+          volumeSlider.addEventListener("input", updateVolume)
+      }
+    
+      function newMusicPlayer() {
+          trackSel = document.createElement("div");
+          trackSel.id = "trackSelParent"
+          let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+          z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+          for (i in soundtracks) {
+              if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                  z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+              }
+          }
+          z += `</select></b><br><br>`
+              // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+          for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+              let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+              let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+              z += b
+          }
+          z += "</div><br><br>"
+          trackSel.innerHTML = z
+    
+          // select correct song
+    
+          musicBox.appendChild(trackSel);
+          Array.from(document.getElementById("trackSel").children).filter(f => {
+              return f.tagName == "LABEL"
+          }).map(f => f.children[0])[0].checked = true
+    
+          // set soundtrack changer
+    
+          soundtrackSelector = document.getElementById("selectSoundtrack")
+          soundtrackSelector.onchange = function() {
+              for (i in soundtracks) {
+                  if (soundtracks[i].name == soundtrackSelector.value) {
+                      e.selectedSoundtrack = i
+                      break
+                  }
+              }
+              document.getElementById("trackSelParent").remove()
+              newMusicPlayer()
+          }
+    
+          var matches = document.querySelectorAll('.trackSelector');
+    
+          for (match in matches) {
+              matches[match].onchange = function() {
+                  audio = $("#campaigntrailmusic")[0];
+                  audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                  audio.currentTime = 0
+              }
+          }
+    
+          musicBox.children[2].loop = false
+          musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+    
+          musicBox.children[2].onended = function() {
+              console.log("next track")
+              let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+              let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+              let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                      return f.tagName == "LABEL"
+                  }).map(f => f.children[0])
+                  //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+              buttons[newSel].click()
+          }
+    
+          for (w = 0; w < 7; w++) {
+              document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+          }
+    
+          generateTime();
+      }
+    
+      clamp = function(a, max, min, overflow = true) {
+          if (overflow) {
+              return a > max ? min : a < min ? max : a;
+          }
+          return a > max ? max : a < min ? min : a;
+      }
+    
+    
+      // Track list
+    
+      var soundtracks = {
+          0: {
+              name: "Rockin with Reagan Vol. II",
+              tracklist: [
+                {
+                  "name": "Say Goodbye To Hollywood - Billy Joel",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1155304345588465747/tomp3.cc_-_Billy_Joel_Say_Goodbye_To_Hollywood_Audio.mp3"
+                },
+                {
+                  "name": "Saturday Nights Alright For Fighting - Elton John",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153508668067827732/tomp3.cc_-_Saturday_Nights_Alright_For_Fighting_Remastered_2014.mp3"
+                },
+                {
+                  "name": "The Boys Are Back In Town - Thin Lizzy",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153508700280074321/tomp3.cc_-_The_Boys_Are_Back_In_Town.mp3"
+                },
+                {
+                  "name": "Dont Fear The Reaper - Blue Oyster Cult",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153508730600702012/tomp3.cc_-_Blue_Oyster_Cult_Dont_Fear_The_Reaper_Audio.mp3"
+                },
+                {
+                  "name": "A Horse With No Name - America",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153508769565769778/tomp3.cc_-_America_A_Horse_With_No_Name_Official_Audio.mp3"
+                }
+            ]
+          },
+                 1: {
+            name: "Take Em to Church",
+            tracklist: [
+              {
+                 "name": "Dream On - Aerosmith",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153514457943769088/tomp3.cc_-_Aerosmith_Dream_On_Audio.mp3"
+              },
+              {
+                  "name": "Stayin Alive - Bee Gees",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153514492454514754/tomp3.cc_-_Stayin_Alive.mp3"
+              },
+              {
+                  "name": "Carry On Wayward Son - Kansas",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153514520371793961/tomp3.cc_-_Kansas_Carry_On_Wayward_Son_Official_Audio.mp3"
+              },
+              {
+                  "name": "Renegade - Styx",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153514578177708162/tomp3.cc_-_Renegade.mp3"
+              },
+              {
+                  "name": "Surrender - Cheap Trick",
+                  "url": "https://cdn.discordapp.com/attachments/785700970091905035/1153514608116650004/tomp3.cc_-_Cheap_Trick_Surrender_Official_Audio.mp3"
+              }
+          ]
+        }
+      }
+  
+    
+      // Set up new music player
+    
+      newMusicPlayer()
+    
+  
+  }
+  
+    $("#game_start").click((event) => {
+      event.preventDefault();
+      $("#election_id_button").click((event) => {
+          musicMode()
+  
+          setInterval(changeFontColour, 200)
+    
+      })
+    })
+  }
