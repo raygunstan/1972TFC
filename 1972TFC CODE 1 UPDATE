@@ -31,7 +31,7 @@ reaganback0 = function() {
     document.getElementById("candidate_summary").innerHTML = text
 }
 
-HistHexcolour=["#c44141","#0020c1","#506526","#c46300"]; HistName=[" Ronald Reagan"," Frank Church"," John Hospers/Others"]; HistEV=[288,249,1]; HistPV=["39,649,453","37,317,133","777,440"]; HistPVP=["51.0%","48.0%","1.0%"];
+HistHexcolour=["#c44141","#0020c1","#506526"]; HistName=[" Ronald Reagan"," Frank Church"," John Hospers/Others"]; HistEV=[288,249,1]; HistPV=["39,649,453","37,317,133","777,440"]; HistPVP=["51.0%","48.0%","1.0%"];
   
 $("#game_window")[0].style.borderColor = "#002334" 
 $(".container")[0].style.backgroundColor = "#002334"
